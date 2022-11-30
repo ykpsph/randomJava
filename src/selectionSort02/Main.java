@@ -31,7 +31,7 @@ public class Main {
                     index = j; // searching for the lowest index
                 }
             }
-            int smallerNumber = arr[index];
+            int smallerNumber = arr[index]; // temp
             arr[index] = arr[i];
             arr[i] = smallerNumber;
         }
